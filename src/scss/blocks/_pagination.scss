@@ -1,0 +1,41 @@
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  padding: 33px 0 73px;
+
+  a {
+    color: #000000;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.28px;
+
+    &:hover {
+      color: #e84c50;
+      text-decoration: none;
+    }
+  }
+}
+
+.pagination__current {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.pagination__current-active,
+a.pagination__current-link {
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.36px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.pagination__current-active {
+  color: #e84c50;
+}

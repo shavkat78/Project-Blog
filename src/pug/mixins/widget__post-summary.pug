@@ -1,0 +1,8 @@
+mixin widget__post-summary(title, info, img, link="#")
+    .widget__post-summary
+        .post-summary__img
+            a(href= link)
+                img(src="./img/small-thumbs/" + img, alt= title)
+        h4.post-summary__title
+            a(href= link) #{title}                        
+        .post-summary__info #{info}

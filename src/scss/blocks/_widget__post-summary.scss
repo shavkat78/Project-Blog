@@ -1,0 +1,43 @@
+.widget__post-summary {
+  padding: 40px 0;
+  text-align: center;
+  border-bottom: 1px solid #dde2e7;
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.post-summary__img {
+  margin-bottom: 25px;
+}
+
+.post-summary__img img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.post-summary__title {
+  margin: 0;
+  margin-bottom: 25px;
+  a {
+    color: #1a1a1a;
+    font-family: "Playfair Display", serif;
+    font-size: 18px;
+    font-weight: 400;
+
+    &:hover {
+      color: #0659e7;
+      text-decoration: none;
+    }
+  }
+}
+
+.post-summary__info {
+  color: #b0b0b0;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
